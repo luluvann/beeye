@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--colorSidebarLightBlue);
+    min-width: 40%;
 }
 .sideBarMenu ul{
     list-style: none;
@@ -27,7 +28,8 @@
  padding: 15px;
  border: 1px solid var(--colorSidebarLiXlightBlue);
  border-radius: 2px;
- color:var(--colorGrey)
+ color:var(--colorGrey);
+ cursor: pointer;
 }
 
 .sideBarMenu .clicked{
@@ -37,24 +39,26 @@
 
 .sideBarMenuDetails{
     display: flex;
-    width: 300px;
+    width: 400px;
 }
 
 .sideBarMainContainer h5{
     text-align: left;
-    padding: 15px;
     margin: 0;
 }
 
 .title{
-    color:black
+    color:black;
+    padding: 15px 15px 5px 15px;
 }
 
 .clientName{
+    padding: 0px 15px 5px 15px;
     text-align: left;
-    color:var(--colorMediumBlue)
+    color:var(--colorMediumBlue);
 }
 
 .menuDetailsTitle{
     background-color: var(--colorPaleOrange);
+    padding: 15px 15px 15px 15px;
 }

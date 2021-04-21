@@ -4,12 +4,14 @@ import Tasks from "./Tasks";
 
 import "./Task.css";
 
-function Task() {
+function Task(props) {
+
   const task = Tasks.map((item, index) => {
+    
     return (
-      <div className="taskContainer">
+      <div className="taskContainer" key={index}>
         <div className="select">
-          <input type="checkbox"></input>
+          <input type="checkbox" checked={props.checked}></input>
         </div>
         <div className="task">
           <h5 className="taskDate">{item.date}</h5>
