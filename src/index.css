@@ -7,7 +7,14 @@
   --color6: #fff3e2;
   --color7: #f1f0fa;
   --color8: #9595a2;
-  --color9: #b7bad6
+  --color9: #b7bad6;
+
+  --colorMediumBlue:#b7bad6;
+  --colorPaleOrange: #fff9f2;
+  --colorSidebarLightBlue:#f5f7fa;
+  --colorSidebarLiXlightBlue: #f1f0fa;
+  --colorOrange:#fb934b;
+  --colorGrey: #9595a2
 }
 
 body {

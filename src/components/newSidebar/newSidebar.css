@@ -1,0 +1,60 @@
+.sideBarMainContainer{
+    display: flex;
+    min-width: 50%;
+    width: 60%;
+    min-height: 100vh;
+}
+
+.sideBarSubContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.sideBarMenu{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colorSidebarLightBlue);
+}
+.sideBarMenu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sideBarMenu li{
+ text-align: left;
+ padding: 15px;
+ border: 1px solid var(--colorSidebarLiXlightBlue);
+ border-radius: 2px;
+ color:var(--colorGrey)
+}
+
+.sideBarMenu .clicked{
+    background-color: var(--colorPaleOrange);
+    color:var(--colorOrange)
+}
+
+.sideBarMenuDetails{
+    display: flex;
+    width: 300px;
+}
+
+.sideBarMainContainer h5{
+    text-align: left;
+    padding: 15px;
+    margin: 0;
+}
+
+.title{
+    color:black
+}
+
+.clientName{
+    text-align: left;
+    color:var(--colorMediumBlue)
+}
+
+.menuDetailsTitle{
+    background-color: var(--colorPaleOrange);
+}
