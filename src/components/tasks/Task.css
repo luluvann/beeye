@@ -1,0 +1,51 @@
+.taskContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.task{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color3);
+    padding: 15px;
+    border: 1px solid var(--color7);
+    min-width: 30%;
+    width: 100%;
+}
+
+.select{
+    background-color: var(--color6);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+}
+
+.select input{
+    width: 35px;
+    height: 35px;
+}
+
+.task h5{
+    text-align: left; 
+}
+
+.taskDate{
+    display: flex;
+    width: 50%;
+    color:var(--color2);
+    border: 1px solid gray;
+    padding: 5px;
+    justify-content: center;
+    background-color: var(--color6);
+    border-radius: 2px;
+}
+
+.taskAuthor{
+    color: var(--color1)
+}
+
+.taskDocStatus{
+    color:var(--color9);
+    font-weight: light;
+}
