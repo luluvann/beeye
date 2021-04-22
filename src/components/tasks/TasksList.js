@@ -1,7 +1,6 @@
 import {React, useState} from "react";
 
 import Task from "./Task";
-import Tasks from "./Tasks";
 
 function TasksList() {
     const [isChecked, setIsChecked] = useState("")

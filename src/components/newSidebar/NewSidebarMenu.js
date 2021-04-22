@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import SideBarMenuItems from "./SideBarMenuItems";
 
 import NewSidebarMenuDetails from "./NewSidebarMenuDetails";
+import RightPanel from "../right-panel/RightPanel";
 import "./newSidebar.css";
 
 function NewSidebarMenu() {
@@ -32,6 +33,7 @@ function NewSidebarMenu() {
       <div className="sideBarMenuDetails">
         <NewSidebarMenuDetails component={component} />
       </div>
+      <RightPanel />
     </div>
   );
 }

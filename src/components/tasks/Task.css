@@ -22,7 +22,7 @@
     display: flex;
     align-items: flex-start;
     padding: 15px;
-    border: 1px solid var(--colorGrey);
+    border: 1px solid var(--colorSidebarLiXlightBlue);
     border-radius: 2px;
 }
 

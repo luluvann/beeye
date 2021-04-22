@@ -1,0 +1,8 @@
+.rightPanelContainer{
+    display:flex;
+    flex-direction: column;
+    background-color: burlywood;
+    min-width: 110%;
+    width: 110%;
+
+}
