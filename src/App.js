@@ -1,15 +1,12 @@
-import React from "react";
 import './App.css';
-import "bootstrap/dist/css/bootstrap.min.css";
-
-import Navbar from "./components/nav/Navbar"
-import Main from "./components/Main";
+import Element from "./Element";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Main />
+        <Element />
+        <Footer />
     </div>
   );
 }
