@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/beeye/static/css/main.efddb97f.chunk.css",
-    "main.js": "/beeye/static/js/main.9dfc7eb8.chunk.js",
-    "main.js.map": "/beeye/static/js/main.9dfc7eb8.chunk.js.map",
+    "main.css": "/beeye/static/css/main.c59cab56.chunk.css",
+    "main.js": "/beeye/static/js/main.9131b1a4.chunk.js",
+    "main.js.map": "/beeye/static/js/main.9131b1a4.chunk.js.map",
     "runtime-main.js": "/beeye/static/js/runtime-main.5e14ea18.js",
     "runtime-main.js.map": "/beeye/static/js/runtime-main.5e14ea18.js.map",
     "static/css/2.150d169a.chunk.css": "/beeye/static/css/2.150d169a.chunk.css",
-    "static/js/2.05e538f0.chunk.js": "/beeye/static/js/2.05e538f0.chunk.js",
-    "static/js/2.05e538f0.chunk.js.map": "/beeye/static/js/2.05e538f0.chunk.js.map",
+    "static/js/2.d36b545e.chunk.js": "/beeye/static/js/2.d36b545e.chunk.js",
+    "static/js/2.d36b545e.chunk.js.map": "/beeye/static/js/2.d36b545e.chunk.js.map",
     "index.html": "/beeye/index.html",
     "static/css/2.150d169a.chunk.css.map": "/beeye/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.efddb97f.chunk.css.map": "/beeye/static/css/main.efddb97f.chunk.css.map",
-    "static/js/2.05e538f0.chunk.js.LICENSE.txt": "/beeye/static/js/2.05e538f0.chunk.js.LICENSE.txt"
+    "static/css/main.c59cab56.chunk.css.map": "/beeye/static/css/main.c59cab56.chunk.css.map",
+    "static/js/2.d36b545e.chunk.js.LICENSE.txt": "/beeye/static/js/2.d36b545e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5e14ea18.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.05e538f0.chunk.js",
-    "static/css/main.efddb97f.chunk.css",
-    "static/js/main.9dfc7eb8.chunk.js"
+    "static/js/2.d36b545e.chunk.js",
+    "static/css/main.c59cab56.chunk.css",
+    "static/js/main.9131b1a4.chunk.js"
   ]
 }
