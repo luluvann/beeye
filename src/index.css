@@ -15,7 +15,8 @@
   --colorOrange:#fb934b;
   --colorLightOrange:#fff3e2;
   --colorPaleOrange: #fff9f2;
-  --colorGrey: #9595a2
+  --colorGrey: #9595a2;
+  --colorRightPanelTitles:#34344b;
 }
 
 body {

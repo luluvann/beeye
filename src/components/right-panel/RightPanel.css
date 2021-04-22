@@ -1,8 +1,41 @@
 .rightPanelContainer{
     display:flex;
     flex-direction: column;
-    background-color: burlywood;
-    min-width: 110%;
-    width: 110%;
+    min-width: 60%;
+    width: 60%;
 
+}
+
+.rightPanelContainer h5{
+    padding:15px;
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px lightgray;
+    color: var(--colorRightPanelTitles);
+    font-weight: bold;
+}
+
+.rightPanelContainer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 0.5px solid lightgray;
+}
+
+.rightPanelContainer ul li{
+    display: flex;
+    padding:15px; 
+    min-width: 50px;
+    width: 150px;
+   justify-content: center;
+   color: var(--colorRightPanelTitles);
+   font-weight: bold;
+   cursor: pointer; 
+}
+
+.unselected{
+    background-color: var(--colorSidebarLightBlue);
+    box-shadow: inset 1px 1px 1px 0 lightgray;
 }
