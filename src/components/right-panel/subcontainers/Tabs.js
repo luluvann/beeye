@@ -4,7 +4,7 @@ import "./Tabs.css";
 
 function Tabs() {
   const items = TabItems.map((item, index) => {
-    return <li className={item.selected ? "" : "unselected"}>{item.title}</li>;
+    return <li key={index} className={item.selected ? "" : "unselected"}>{item.title}</li>;
   });
 
   return <ul>{items}</ul>;
