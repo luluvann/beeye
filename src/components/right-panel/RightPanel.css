@@ -59,3 +59,31 @@
   font-weight: bold;
   color: var(--colorMediumBlue);
 }
+
+
+.teamDetailsContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.teamDetailsContainer ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.teamDetailsContainer ul li{
+    display: flex;
+    padding: 15px;
+    min-width: 50px;
+    width: 150px;
+    justify-content: center;
+    color: var(--colorRightPanelTitles);
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+
+.teamDetailsContainer ul .selected{
+    background-color: var(--colorSidebarLiXlightBlue);
+}
