@@ -1,20 +1,23 @@
 import {React, useState} from "react";
 
 import Task from "./Task";
+import Tasks from "./Tasks";
 
 function TasksList() {
-    const [checked, setCheck] = useState("")
+    const [isChecked, setIsChecked] = useState("")
+
     function handleSelectAllClick(){
-        checked === "" ? setCheck("checked") : setCheck("")
+        isChecked === "" ? setIsChecked("true") : setIsChecked("")
     }
     
+
   return (
     <div>
       <div className="select">
         <input type="checkbox" onClick={handleSelectAllClick}></input>
         <h5>Sélectionner tout</h5>
       </div>
-      <Task checked={checked}/>
+      <Task isChecked={isChecked}/>
     </div>
   );
 }

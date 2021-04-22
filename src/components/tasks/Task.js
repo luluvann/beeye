@@ -1,17 +1,28 @@
-import React from "react";
+import { React, useState } from "react";
 
 import Tasks from "./Tasks";
 
 import "./Task.css";
 
 function Task(props) {
-
+ 
   const task = Tasks.map((item, index) => {
+    function handleClick() {
+      Tasks[index].checked === ""
+        ? (Tasks[index].checked = "true")
+        : (Tasks[index].checked = "");
+    }
     
+    const isChecked = props.isChecked
+
     return (
       <div className="taskContainer" key={index}>
         <div className="select">
-          <input type="checkbox" checked={props.checked}></input>
+          <input
+            type="checkbox"
+            defaultChecked={isChecked}
+            onClick={handleClick}
+          ></input>
         </div>
         <div className="task">
           <h5 className="taskDate">{item.date}</h5>
