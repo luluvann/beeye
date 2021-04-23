@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css";
+import "../Avatar.css"
+
 import NavItems from "./NavItems";
 import Avatar from "../Avatar"
 
@@ -36,7 +38,7 @@ function Navbar() {
       </ul>
       <div className="navRight">
         <Icons />
-        <Avatar src={navAvatar}/>
+        <Avatar src={navAvatar} className="navAvatar"/>
       </div>
     </nav>
   );

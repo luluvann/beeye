@@ -9,13 +9,30 @@ th{
 
 tr{ 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: flex-start;
     padding:15px;
     border: 1px solid var(--colorTableBorder);
     width: 100%;
 }
 
-td:last-child{
-    color:var(--colorMediumBlue)
+.avatarEmployee{
+    display: flex;
+    width: 10%;
+ 
+    justify-content: center;
+}
+.namPosition{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+td{
+    display: flex;
+}
+
+.namPosition{
+    
 }

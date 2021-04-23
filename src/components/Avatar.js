@@ -5,9 +5,8 @@ import "./Avatar.css"
 function Avatar(props){
 
     return(
-        <img className="avatar" src={props.src}></img>
+        <img className={`avatar ${props.className}`} src={props.src}></img>
     )
-
 }
 
 export default Avatar;

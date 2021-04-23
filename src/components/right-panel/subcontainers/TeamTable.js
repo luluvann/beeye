@@ -1,41 +1,66 @@
 import React from "react";
 
-import "./TeamTable.css"
+import "./TeamTable.css";
 
-function TeamTable(){
-    const TeamMembers = [
-        {name:"Gabrielle Chevalier", poste: "Assistant Comptable"},
-        {name:"Marc Chapuis", poste: "Assistant Comptable"},
-        {name:"Giselle Bissonnette", poste: "Assistant Comptable"},
-        {name:"Mathieu Ancel", poste: "Assistant Comptable"},
-        {name:"Marie-Noëlle Auvray", poste: "Assistant Comptable"},
-        {name:"Nicole Gounelle", poste: "Assistant Comptable"},
-        {name:"Natacha Corriveau", poste: "Assistant Comptable"}
-    ]
+import Avatar from "../../Avatar";
 
-    const TeamMemberRows = TeamMembers.map((teamMember,index) => {
-        return (
-        <tr key={index}>
-            <td>
-                {teamMember.name}
-            </td>
-            <td>
-                {teamMember.poste}
-            </td>
-        </tr>
-        )
-    })
+import navAvatar from "../../../assets/navAvatar.jpg";
+import avatarEmployee1 from "../../../assets/avatarEmployee1.jpg";
+import avatarEmployee2 from "../../../assets/avatarEmployee2.jpg";
+import avatarEmployee3 from "../../../assets/avatarEmployee3.jpg";
+import avatarEmployee4 from "../../../assets/avatarEmployee4.jpg";
 
-    return(
-        <table>
-            <tr>
-                <th>
-                    Nom
-                </th>
-            </tr>
-           {TeamMemberRows}
-        </table>
-    )
+function TeamTable() {
+  const TeamMembers = [
+    {
+      name: "Gabrielle Chevalier",
+      poste: "Assistant Comptable",
+      img: navAvatar,
+    },
+    {
+      name: "Marc Chapuis",
+      poste: "Assistant Comptable",
+      img: avatarEmployee1,
+    },
+    {
+      name: "Giselle Bissonnette",
+      poste: "Assistant Comptable",
+      img: avatarEmployee3,
+    },
+    {
+      name: "Mathieu Ancel",
+      poste: "Assistant Comptable",
+      img: avatarEmployee2,
+    },
+    {
+      name: "Marie-Noëlle Auvray",
+      poste: "Assistant Comptable",
+      img: avatarEmployee4,
+    },
+  ];
+
+  const TeamMemberRows = TeamMembers.map((teamMember, index) => {
+    return (
+      <tr key={index}>
+          <td className="avatarEmployee">
+            <Avatar src={teamMember.img} />
+          </td>
+        <div className="NamePosition">
+          <td>{teamMember.name}</td>
+          <td>{teamMember.poste}</td>
+        </div>
+      </tr>
+    );
+  });
+
+  return (
+    <table>
+      <tr>
+        <th>Nom</th>
+      </tr>
+      {TeamMemberRows}
+    </table>
+  );
 }
 
 export default TeamTable;
