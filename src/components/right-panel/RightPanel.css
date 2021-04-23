@@ -76,14 +76,16 @@
 .teamDetailsContainer ul{
     display: flex;
     flex-direction: row;
-    margin:15px;
-    border:none
+    padding: 15px;
+    border:none;
+    width: 90%;
+    justify-content:space-between;
 }
 
 .teamDetailsContainer ul li{
     display: flex;
-    min-width: 50px;
-    width: 150px;
+    min-width: 60px;
+    width: 100%;
     justify-content: center;
     color: var(--colorRightPanelTitles);
     font-weight: bold;
