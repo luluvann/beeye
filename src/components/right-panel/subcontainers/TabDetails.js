@@ -11,6 +11,11 @@ function TabDetails() {
       <p>Statut</p>
       <p>Équipe <span>Gabrielle Chevalier</span></p>
       <TeamDetails />
+      <p>Honoraires</p>
+      <p>Durée</p>
+      <p>Date butoir</p>
+      <p>Checklist</p>
+      <p>Champs</p>
     </div>
   );
 }

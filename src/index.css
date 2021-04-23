@@ -17,7 +17,8 @@
   --colorPaleOrange: #fff9f2;
   --colorGrey: #9595a2;
   --colorRightPanelTitles:#34344b;
-  --colorAddFilter:#686985
+  --colorAddFilter:#686985;
+  --colorTableBorder:#d6dbe3
 }
 
 body {

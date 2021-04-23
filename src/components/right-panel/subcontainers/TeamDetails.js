@@ -1,6 +1,7 @@
 import React from "react";
 
 import "../RightPanel.css"
+import TeamTable from "./TeamTable"
 
 function TeamDetails(){
     return(
@@ -16,6 +17,7 @@ function TeamDetails(){
                 <div className="filter">Site<span>Paris</span></div>
             </div>
             <button className="addFilter">+ Ajouter un filtre</button>
+            <TeamTable />
         </div>
     )
 }
