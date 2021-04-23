@@ -12,10 +12,10 @@ function TeamDetails(){
                 <li>Référence</li>
             </ul>
             <div className="filters">
-                <div className="filter">Poste</div>
-                <div className="filter">Site</div>
+                <div className="filter">Poste<span>Assistant Comptable</span></div>
+                <div className="filter">Site<span>Paris</span></div>
             </div>
-            <div className="Addfilter">+ Ajouter un filtre</div>
+            <button className="addFilter">+ Ajouter un filtre</button>
         </div>
     )
 }

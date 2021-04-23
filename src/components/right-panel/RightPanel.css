@@ -1,3 +1,4 @@
+/*Right Panel Main Container*/
 .rightPanelContainer {
   display: flex;
   flex-direction: column;
@@ -39,6 +40,8 @@
   box-shadow: inset 1px 1px 1px 0 lightgray;
 }
 
+/*Tabs details*/
+
 .tabDetails {
   display: flex;
   flex-direction: column;
@@ -60,21 +63,25 @@
   color: var(--colorMediumBlue);
 }
 
+/*Team Details*/
 
 .teamDetailsContainer{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    border: 1px solid lightgray;
+    width: 100%;
 }
 
 .teamDetailsContainer ul{
     display: flex;
     flex-direction: row;
+    margin:15px;
+    border:none
 }
 
 .teamDetailsContainer ul li{
     display: flex;
-    padding: 15px;
     min-width: 50px;
     width: 150px;
     justify-content: center;
@@ -84,6 +91,51 @@
     border: 1px solid lightgray;
 }
 
+.teamDetailsContainer ul li:first-child {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.teamDetailsContainer ul li:last-child {
+    border-radius: 0px 5px 5px 0px;
+}
+
 .teamDetailsContainer ul .selected{
     background-color: var(--colorSidebarLiXlightBlue);
+    box-shadow: inset 1px 1px 1px 0 lightgray;
+}
+
+.filters{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px;
+    font-weight: bold;
+    width: 90%;
+}
+
+.filter span{
+    color: var(--colorOrange);
+    padding-left: 15px;
+}
+
+.filter{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    border:1px solid lightgray;
+    padding: 15px;
+    margin-bottom: 15px;
+    color:var(--colorRightPanelTitles);
+    box-shadow: 1px 1px 1px 0 lightgray;
+}
+
+.addFilter{
+    display: flex;
+    width: 200px;
+    justify-content: flex-start;
+    color:var(--colorAddFilter);
+    padding: 0px 15px 15px 15px;
+    font-weight: bold;
+    border:none;
+    background-color: white ;
 }
