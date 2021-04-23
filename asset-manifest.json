@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/beeye/static/css/main.38eb6641.chunk.css",
+    "main.css": "/beeye/static/css/main.c92af60d.chunk.css",
     "main.js": "/beeye/static/js/main.31c25ae6.chunk.js",
     "main.js.map": "/beeye/static/js/main.31c25ae6.chunk.js.map",
     "runtime-main.js": "/beeye/static/js/runtime-main.5e14ea18.js",
@@ -10,14 +10,14 @@
     "static/js/2.d36b545e.chunk.js.map": "/beeye/static/js/2.d36b545e.chunk.js.map",
     "index.html": "/beeye/index.html",
     "static/css/2.150d169a.chunk.css.map": "/beeye/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.38eb6641.chunk.css.map": "/beeye/static/css/main.38eb6641.chunk.css.map",
+    "static/css/main.c92af60d.chunk.css.map": "/beeye/static/css/main.c92af60d.chunk.css.map",
     "static/js/2.d36b545e.chunk.js.LICENSE.txt": "/beeye/static/js/2.d36b545e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5e14ea18.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.d36b545e.chunk.js",
-    "static/css/main.38eb6641.chunk.css",
+    "static/css/main.c92af60d.chunk.css",
     "static/js/main.31c25ae6.chunk.js"
   ]
 }
