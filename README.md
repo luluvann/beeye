@@ -11,10 +11,12 @@
 - Certains css classes auraient pu être refactorisées pour alléger le code (ex: les tags unordered list "ul")
 - Dans la mesure du possible, les contenus des tags "li" ont été enregistrés dans une "array" dans un fichier js dédié pour un composant donné
 - Fontawesome est utilisé pour les icônes, cependant, n'ayant pas de compte pro, certaines icônes ne sont pas dans leur version "far" (régulier) c'est-à-dire sans le fond noir
+- l'application n'est pas encore complètement responsive
 
 ## Axes d'amélioration
 - Factoriser les classes
 - Apporter les fonctionnalités du design
 - Rendre certains composants réutilisables dans une autre vue
+- Rendre responsive sur écrans moins larges
 
 

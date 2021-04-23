@@ -3,21 +3,22 @@
     min-width: 100%;
     width: 100%;
     min-height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
 .sideBarSubContainer{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    min-width: 50%;
+    min-width: 40%;
 }
 
 .sideBarMenu{
     display: flex;
     flex-direction: column;
     background-color: var(--colorSidebarLightBlue);
-    min-width: 15%;
-    width:15%;
+    min-width: 10%;
+    width:10%;
 }
 .sideBarMenu ul{
     list-style: none;
@@ -41,7 +42,7 @@
 
 .sideBarMenuDetails{
     min-width: 30%;
-    width: 30%;
+    width: 25%;
 }
 
 .sideBarMainContainer h5{
@@ -65,3 +66,7 @@
     background-color: var(--colorPaleOrange);
     padding: 15px 15px 15px 15px;
 }
+
+@media (max-width: 1000px) {
+
+  }
