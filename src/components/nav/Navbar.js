@@ -6,6 +6,7 @@ import NavItems from "./NavItems";
 import Avatar from "../Avatar"
 
 import navAvatar from "../../assets/navAvatar.jpg"
+import logo from "../../assets/logo.png"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch, faBell, faQuestionCircle, faCog, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
@@ -33,6 +34,7 @@ function Navbar() {
   };
   return (
     <nav>
+      <img src={logo} className="navLogo"></img>
       <ul>
         {items}
       </ul>

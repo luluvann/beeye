@@ -45,3 +45,8 @@ nav ul li a:hover{
     flex-direction: row;
     justify-content: flex-end;
 }
+
+.navLogo{
+    width: 5%;
+    margin-left:15px;
+}
