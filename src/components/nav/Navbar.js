@@ -17,21 +17,21 @@ function Navbar() {
 
   const Icons = () => {
     return (
-      <li className="icons">
-        <FontAwesomeIcon icon={faSearch} />
-        <FontAwesomeIcon icon={faBell} />
-        <FontAwesomeIcon icon={faQuestionCircle} />
-        <FontAwesomeIcon icon={faCog} />
-        <FontAwesomeIcon icon={faPlusSquare} />
-      </li>
+      <div className="icons">
+        <div className="icon"><FontAwesomeIcon icon={faSearch} /></div>
+        <div className="icon"><FontAwesomeIcon icon={faBell} /></div>
+        <div className="icon"><FontAwesomeIcon icon={faQuestionCircle} /></div>
+        <div className="icon"><FontAwesomeIcon icon={faCog} /></div>
+        <div className="icon larger"><FontAwesomeIcon icon={faPlusSquare} color="orange"/></div>
+      </div>
     );
   };
   return (
-    <nav className="navbar">
+    <nav>
       <ul>
         {items}
-        <Icons />
       </ul>
+      <Icons />
     </nav>
   );
 }
