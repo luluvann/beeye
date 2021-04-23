@@ -39,3 +39,9 @@ nav ul li a:hover{
 .larger{
     font-size: 35px;
 }
+
+.navRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
