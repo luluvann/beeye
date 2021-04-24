@@ -2,7 +2,7 @@ import {React, useState} from "react";
 
 import "../RightPanel.css";
 
-import TeamDetails from "./TeamDetails";
+import TeamDetails from "./team-details/TeamDetails";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 

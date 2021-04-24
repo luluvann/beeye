@@ -2,13 +2,13 @@ import React from "react";
 
 import "./TeamTable.css";
 
-import Avatar from "../../Avatar";
+import Avatar from "../../../Avatar";
 
-import navAvatar from "../../../assets/navAvatar.jpg";
-import avatarEmployee1 from "../../../assets/avatarEmployee1.jpg";
-import avatarEmployee2 from "../../../assets/avatarEmployee2.jpg";
-import avatarEmployee3 from "../../../assets/avatarEmployee3.jpg";
-import avatarEmployee4 from "../../../assets/avatarEmployee4.jpg";
+import navAvatar from "../../../../assets/navAvatar.jpg";
+import avatarEmployee1 from "../../../../assets/avatarEmployee1.jpg";
+import avatarEmployee2 from "../../../../assets/avatarEmployee2.jpg";
+import avatarEmployee3 from "../../../../assets/avatarEmployee3.jpg";
+import avatarEmployee4 from "../../../../assets/avatarEmployee4.jpg";
 
 function TeamTable() {
   const TeamMembers = [

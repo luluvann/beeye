@@ -1,6 +1,6 @@
 import React from "react";
 
-import "../RightPanel.css"
+import "../../RightPanel.css"
 import TeamTable from "./TeamTable"
 
 function TeamDetails(){
