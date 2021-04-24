@@ -2,20 +2,31 @@ import React from "react";
 
 import "../RightPanel.css";
 
-import TeamDetails from "./TeamDetails"
+import TeamDetails from "./TeamDetails";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import {
+  faFileAlt,
+  faCircle,
+  faUsers,
+  faMoneyCheck,
+  faClock,
+  faCalendarAlt,
+  faTasks,
+} from "@fortawesome/free-solid-svg-icons";
 
 function TabDetails() {
   return (
     <div className="tabDetails">
-      <p>Description</p>
-      <p>Statut</p>
-      <p>Équipe <span>Gabrielle Chevalier</span></p>
+      <p><FontAwesomeIcon icon={faFileAlt}/> Description</p>
+      <p><FontAwesomeIcon icon={faCircle}/> Statut</p>
+      <p><FontAwesomeIcon icon={faUsers}/> Équipe <span>Gabrielle Chevalier</span></p>
       <TeamDetails />
-      <p>Honoraires</p>
-      <p>Durée</p>
-      <p>Date butoir</p>
-      <p>Checklist</p>
-      <p>Champs</p>
+      <p><FontAwesomeIcon icon={faMoneyCheck}/> Honoraires</p>
+      <p><FontAwesomeIcon icon={faClock}/> Durée</p>
+      <p><FontAwesomeIcon icon={faCalendarAlt}/> Date butoir</p>
+      <p><FontAwesomeIcon icon={faTasks}/> Checklist</p>
     </div>
   );
 }
