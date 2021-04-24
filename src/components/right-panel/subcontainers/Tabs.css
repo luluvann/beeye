@@ -1,3 +1,7 @@
 .unselected{
     background-color: var(--colorSidebarLightBlue);
 }
+
+.tabsIcon{
+    padding-right: 5px;
+}

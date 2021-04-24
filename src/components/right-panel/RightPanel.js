@@ -1,6 +1,7 @@
 import React from "react";
 
 import "./RightPanel.css";
+
 import Tabs from "./subcontainers/Tabs"
 import TabDetails from "./subcontainers/TabDetails"
 
