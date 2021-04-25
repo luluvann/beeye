@@ -4,6 +4,7 @@
   flex-direction: column;
   min-width: 60%;
   width: 60%;
+  overflow: auto;
 }
 
 .rightPanelContainer h5 {

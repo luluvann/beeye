@@ -26,8 +26,8 @@ function NewSidebarMenu() {
   return (
     <div className="sideBarSubContainer">
       <div className="sideBarMenu">
-        <h5 className="title">Title</h5>
-        <h5 className="clientName">Client Name</h5>
+        <h5 className="title">Titre</h5>
+        <h5 className="clientName">Nom client</h5>
         <ul>{items}</ul>
       </div>
       <div className="sideBarMenuDetails">

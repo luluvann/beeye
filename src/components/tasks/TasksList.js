@@ -1,22 +1,58 @@
-import {React, useState} from "react";
+import { React, useState, useEffect } from "react";
 
 import Task from "./Task";
+import Tasks from "./Tasks";
 
 function TasksList() {
-    const [isChecked, setIsChecked] = useState("")
+  const [isCheckAll, setIsCheckAll] = useState(false);
+  const [isCheck, setIsCheck] = useState([]);
+  const [list, setList] = useState([]);
 
-    function handleSelectAllClick(){
-        isChecked === "" ? setIsChecked("true") : setIsChecked("")
+  useEffect(() => {
+    setList(Tasks);
+  }, [list]);
+
+  const handleSelectAll = (e) => {
+    setIsCheckAll(!isCheckAll);
+    setIsCheck(list.map((li) => li.id));
+    if (isCheckAll) {
+      setIsCheck([]);
     }
-    
+  };
+
+  const onChange = (e) => {
+    const { id, checked } = e.target;
+    setIsCheck([...isCheck, id]);
+    if (!checked) {
+      setIsCheck(isCheck.filter((item) => item !== id));
+    }
+  };
+
+  const allTasks = list.map((item) => {
+    return (
+      <>
+        <Task
+          key={item.id}
+          type="checkbox"
+          onChange={onChange}
+          id={item.id}
+          date={item.date}
+          title={item.title}
+          author={item.author}
+          docStatus={item.docStatus}
+          isChecked={isCheck.includes(item.id)}
+        />
+      </>
+    );
+  });
 
   return (
     <div>
       <div className="select">
-        <input type="checkbox" onClick={handleSelectAllClick}></input>
+        <input type="checkbox" onChange={handleSelectAll} ></input>
         <h5>Sélectionner tout</h5>
       </div>
-      <Task isChecked={isChecked}/>
+      {allTasks}
     </div>
   );
 }

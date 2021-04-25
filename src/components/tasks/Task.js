@@ -1,39 +1,27 @@
-import { React, useState } from "react";
-
-import Tasks from "./Tasks";
+import { React } from "react";
 
 import "./Task.css";
 
 function Task(props) {
  
-  const task = Tasks.map((item, index) => {
-    function handleClick() {
-      Tasks[index].checked === ""
-        ? (Tasks[index].checked = "true")
-        : (Tasks[index].checked = "");
-    }
-    
-    const isChecked = props.isChecked
-
     return (
-      <div className="taskContainer" key={index}>
+      <div className="taskContainer" key={props.id}>
         <div className="select">
           <input
-            type="checkbox"
-            defaultChecked={isChecked}
-            onClick={handleClick}
-          ></input>
+              id={props.id}
+              type={props.type}
+              onChange={props.onChange}
+              checked={props.isChecked}
+              />
         </div>
         <div className="task">
-          <h5 className="taskDate">{item.date}</h5>
-          <h5 className="taskTitle">{item.title}</h5>
-          <h5 className="taskAuthor">{item.author}</h5>
-          <h5 className="taskDocStatus">{item.docStatus}</h5>
+          <h5 className="taskDate">{props.date}</h5>
+          <h5 className="taskTitle">{props.title}</h5>
+          <h5 className="taskAuthor">{props.author}</h5>
+          <h5 className="taskDocStatus">{props.docStatus}</h5>
         </div>
       </div>
     );
-  });
-  return <div>{task}</div>;
 }
 
 export default Task;
