@@ -17,18 +17,26 @@ tr{
     width: 100%;
 }
 
+.teamMemberContainer{
+    display: flex;
+    align-items: center;
+}
+
 .avatarEmployee{
     display: flex;
     width: 10%;
- 
     justify-content: center;
+    position: relative;
 }
 .namPosition{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
 }
 
 td{
     display: flex;
+    position: relative;
+    padding: 0px 0px 0px 45px;
 }

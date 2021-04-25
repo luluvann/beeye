@@ -26,9 +26,9 @@
     border-radius: 2px;
 }
 
-.select input{
-    width: 35px;
-    height: 35px;
+input{
+    min-width: 35px;
+    min-height: 35px;
     justify-self: left;
 }
 

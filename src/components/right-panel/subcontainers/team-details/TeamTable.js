@@ -41,7 +41,7 @@ function TeamTable() {
 
   const TeamMemberRows = TeamMembers.map((teamMember, index) => {
     return (
-      <tr key={index}>
+      <tr key={index} className="teamMemberContainer">
           <td className="avatarEmployee">
             <Avatar src={teamMember.img} />
           </td>
