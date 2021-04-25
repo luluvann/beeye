@@ -2,9 +2,10 @@
 .rightPanelContainer {
   display: flex;
   flex-direction: column;
-  min-width: 60%;
-  width: 70%;
+  min-width: 600px;
+  width: 95%;
   overflow: scroll;
+  overflow-y: hidden;
   position: relative;
 }
 
@@ -28,9 +29,8 @@
 
 .rightPanelContainer ul li {
   display: flex;
-  padding: 15px;
-  min-width: 50px;
-  width: 150px;
+  padding: 10px;
+  width: 130px;
   justify-content: center;
   color: var(--colorRightPanelTitles);
   font-weight: bold;

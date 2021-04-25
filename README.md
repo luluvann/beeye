@@ -11,12 +11,13 @@
 - Certains css classes auraient pu être refactorisées pour alléger le code (ex: les tags unordered list "ul")
 - Dans la mesure du possible, les contenus des tags "li" ont été enregistrés dans une "array" dans un fichier js dédié pour un composant donné
 - Fontawesome est utilisé pour les icônes, cependant, n'ayant pas de compte pro, certaines icônes ne sont pas dans leur version "far" (régulier) c'est-à-dire sans le fond noir
-- l'application n'est pas encore complètement responsive
+- L'application est partiellement responsive, la section droite de l'écran permet un overflow horizontal mais ne permet pas encore de cacher par exemple la sidebar de gauche pour des écrans moins larges.
 
 ## Axes d'amélioration
 - Factoriser les classes
 - Apporter les fonctionnalités du design
 - Rendre certains composants réutilisables dans une autre vue
-- Rendre responsive sur écrans moins larges
+- Rendre davantage responsive sur écrans moins larges (ex: cacher la sidebar partiellement pour que la section à droite prenne toute la largeur de l'écran)
+- Personnaliser les inputs des tâches aux couleurs de Beeye lorsque ceux-ci sont cliqués
 
 
