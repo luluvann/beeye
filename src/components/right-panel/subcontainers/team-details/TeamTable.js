@@ -10,6 +10,8 @@ import avatarEmployee2 from "../../../../assets/avatarEmployee2.jpg";
 import avatarEmployee3 from "../../../../assets/avatarEmployee3.jpg";
 import avatarEmployee4 from "../../../../assets/avatarEmployee4.jpg";
 
+import Planner from "./planner/Planner"
+
 function TeamTable() {
   const TeamMembers = [
     {
@@ -41,6 +43,7 @@ function TeamTable() {
 
   const TeamMemberRows = TeamMembers.map((teamMember, index) => {
     return (
+      <>
       <tr key={index} className="teamMemberContainer">
           <td className="avatarEmployee">
             <Avatar src={teamMember.img} />
@@ -50,6 +53,8 @@ function TeamTable() {
           <td>{teamMember.poste}</td>
         </div>
       </tr>
+      <Planner />
+      </>
     );
   });
 

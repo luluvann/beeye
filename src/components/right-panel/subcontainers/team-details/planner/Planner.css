@@ -1,0 +1,57 @@
+.plannerContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    background-color:lightgreen ;
+}
+
+.graph{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: auto;
+    overflow: auto;
+    overflow-y: hidden;
+    background-color: var(--colorSidebarLightBlue);
+}
+
+.graphBarContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.graphBar{
+    width: 30px;
+    height: 100px;
+    background-color: var(--colorSidebarLiXlightBlue);
+    margin: 10px;
+}
+
+.increaseDecreaseButton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--colorTableBorder);
+    color: var(--colorTableBorder);
+    margin: 0px 10px 10px 10px;
+    border-radius: 2px;
+    cursor:pointer
+}
+
+.graphBarDate{
+    width: 30px;
+    height: 30px;
+    color: var(--colorTableBorder);
+    margin: 0px 10px 20px 10px;
+    border-radius: 2px;
+    font-size: small;
+}
+
+.legend{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: var(--colorSidebarLightBlue);
+    width: 30%;
+}

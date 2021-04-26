@@ -1,14 +1,4 @@
 :root {
-  --color1: #686985;
-  --color2: #fb934b;
-  --color3: #fff9f2;
-  --color4: #f5f7fa;
-  --color5: #fff3e2;
-  --color6: #fff3e2;
-  --color7: #f1f0fa;
-  --color8: #9595a2;
-  --color9: #b7bad6;
-
   --colorMediumBlue:#b7bad6;
   --colorSidebarLightBlue:#f5f7fa;
   --colorSidebarLiXlightBlue: #f1f0fa;
@@ -18,7 +8,7 @@
   --colorGrey: #9595a2;
   --colorRightPanelTitles:#34344b;
   --colorAddFilter:#686985;
-  --colorTableBorder:#d6dbe3
+  --colorTableBorder:#d6dbe3;
 }
 
 body {

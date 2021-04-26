@@ -15,10 +15,10 @@ function Task(props) {
               />
         </div>
         <div className="task">
-          <h5 className="taskDate">{props.date}</h5>
-          <h5 className="taskTitle">{props.title}</h5>
-          <h5 className="taskAuthor">{props.author}</h5>
-          <h5 className="taskDocStatus">{props.docStatus}</h5>
+          <p className="taskDate">{props.date}</p>
+          <p className="taskTitle">{props.title}</p>
+          <p className="taskAuthor">{props.author}</p>
+          <p className="taskDocStatus">{props.docStatus}</p>
         </div>
       </div>
     );

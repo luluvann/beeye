@@ -37,32 +37,40 @@ input{
     padding-left:30px
 }
 
-.task h5{
+.task p{
     text-align: left; 
 }
 
 .taskDate{
     display: flex;
-    width: 60%;
-    color:var(--color2);
-    border: 1px solid var(--colorGrey);
-    padding: 5px 5px 5px 5px;
-    justify-content: center;
-    background-color: var(--color6);
+    width: 40%;
+    color:var(--colorOrange);
+    background-color: var(--colorLightOrange);
+    font-weight: bold;
+    border: 1px solid var(--colorSidebarLiXlightBlue);
+    box-shadow: inset 0.3px 0.3px gray;
     border-radius: 2px;
+    padding: 5px 0 5px 0;
+    justify-content: center;
+    
+    
 }
 
 .taskTitle{
-    padding: 5px 0 5px 0;
+    padding: 0;
+    font-weight: bold;
+    color:var(--colorRightPanelTitles);
+    margin: 0;
 }
 
 .taskAuthor{
-    color: var(--color1);
-    padding: 5px 0 5px 0;
+    padding: 0;
+    color:var(--colorGrey);
+    margin: 0;
 }
 
 .taskDocStatus{
-    color:var(--color9);
-    font-weight: light;
-    padding: 5px 0 5px 0;
+    padding: 0;
+    color:var(--colorMediumBlue);
+    margin: 0;
 }
