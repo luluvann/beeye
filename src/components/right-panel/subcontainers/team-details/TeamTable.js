@@ -40,7 +40,7 @@ function TeamTable() {
       img: avatarEmployee4,
     },
   ];
-
+ 
   const TeamMemberRows = TeamMembers.map((teamMember, index) => {
     return (
       <>
