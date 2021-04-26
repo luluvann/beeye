@@ -6,6 +6,7 @@
     background-color:lightgreen ;
 }
 
+/* Graph */
 .graph{
     display: flex;
     flex-direction: row;
@@ -20,6 +21,13 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+
+.graphBarContainer:hover{
+    border-radius: 2px;
+    border:1px solid gray;
+    background-color: white;
+    box-shadow: 0.3px 0.3px gray;
 }
 
 .graphBar{
@@ -62,10 +70,72 @@
     font-size: small;
 }
 
+/* Legend */
+
 .legend{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     background-color: var(--colorSidebarLightBlue);
     width: 30%;
+    padding: 15px;
+}
+
+.dateRange{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.dateRange a{
+    font-size: 30px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--colorAddFilter);
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+    color: var(--colorAddFilter);
+    padding-bottom: 10px;
+    position: relative;
+    margin: 0px 5px 0px 5px ;
+}
+
+.dateRange a:hover{
+    text-decoration: none;
+}
+
+.dateRange p{
+    display: flex;
+    height: 28px;
+    background-color: var(--colorDateRange);
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--colorAddFilter);
+    border-radius: 2px;
+    font-weight: lighter;
+}
+
+.legendDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 15px 0 0 15px;
+}
+
+.legendDetails p{
+    margin: 0;
+    padding: 0;
+    font-weight: lighter;
+}
+
+.legendDetails p span{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+   justify-self: right;
 }
