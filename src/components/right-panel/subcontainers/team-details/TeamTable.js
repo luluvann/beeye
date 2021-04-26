@@ -50,7 +50,7 @@ function TeamTable() {
           </td>
         <div className="NamePosition">
           <td>{teamMember.name}</td>
-          <td>{teamMember.poste}</td>
+          <td className="position">{teamMember.poste}</td>
         </div>
       </tr>
       <Planner />

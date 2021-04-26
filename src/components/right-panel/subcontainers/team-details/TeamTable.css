@@ -4,7 +4,8 @@ table{
 }
 
 th{
-    color:var(--colorGrey)
+    color:var(--colorGrey);
+    padding-left: 15px;
 }
 
 tr{ 
@@ -27,6 +28,7 @@ tr{
     width: 10%;
     justify-content: center;
     position: relative;
+    padding-left: 0;
 }
 .namPosition{
     display: flex;
@@ -38,5 +40,9 @@ tr{
 td{
     display: flex;
     position: relative;
-    padding: 0px 0px 0px 45px;
+    padding: 0px 0px 0px 15px;
+}
+
+.position{
+    color:var(--colorMediumBlue)
 }
