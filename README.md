@@ -3,8 +3,8 @@
 ## Application déployée
 [https://luluvann.github.io/beeye](https://luluvann.github.io/beeye)
 
-## Ouvrir le project en local
-1. S'assurer d'avoir NodeJS d'installé (en vérifiant la version)
+## Ouvrir le projet en local
+1. S'assurer d'avoir installé NodeJS (en vérifiant la version)
 ```
 node -v
 ``` 
