@@ -30,6 +30,7 @@ tr{
     position: relative;
     padding-left: 0;
 }
+
 .namPosition{
     display: flex;
     flex-direction: column;
