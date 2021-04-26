@@ -2,12 +2,12 @@ import React from "react";
 
 import "./Main.css";
 
-import NewSidebar from "./newSidebar/NewSidebar";
+import Sidebar from "./sidebar/Sidebar";
 
 function Main() {
   return (
     <div className="main">
-      <NewSidebar />
+      <Sidebar />
     </div>
   );
 }

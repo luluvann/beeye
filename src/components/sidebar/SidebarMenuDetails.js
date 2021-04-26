@@ -2,7 +2,7 @@ import React from "react";
 
 import TasksList from "../tasks/TasksList"
 
-function NewSidebarMenuDetails(props) {
+function SidebarMenuDetails(props) {
   const sectionName = props.component;
 
   return (
@@ -15,4 +15,4 @@ function NewSidebarMenuDetails(props) {
   );
 }
 
-export default NewSidebarMenuDetails;
+export default SidebarMenuDetails;

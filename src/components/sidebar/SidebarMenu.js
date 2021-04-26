@@ -1,11 +1,11 @@
 import { React, useState } from "react";
 import SideBarMenuItems from "./SideBarMenuItems";
 
-import NewSidebarMenuDetails from "./NewSidebarMenuDetails";
+import SidebarMenuDetails from "./SidebarMenuDetails";
 import RightPanel from "../right-panel/RightPanel";
-import "./newSidebar.css";
+import "./Sidebar.css";
 
-function NewSidebarMenu() {
+function SidebarMenu() {
   const [component, setComponent] = useState("Tâches");
 
   const items = SideBarMenuItems.map((item, index) => {
@@ -31,11 +31,11 @@ function NewSidebarMenu() {
         <ul>{items}</ul>
       </div>
       <div className="sideBarMenuDetails">
-        <NewSidebarMenuDetails component={component} />
+        <SidebarMenuDetails component={component} />
       </div>
       <RightPanel />
     </div>
   );
 }
 
-export default NewSidebarMenu;
+export default SidebarMenu;
