@@ -6,8 +6,8 @@ import { NavItem } from "react-bootstrap";
 
 function Planner(){
 
-    const graphBars = Dates.map(date => {
-        return <GraphBar date={date}/>
+    const graphBars = Dates.map(item => {
+        return <GraphBar date={item.date} completion={item.completion}/>
     })
 
     return(

@@ -4,7 +4,7 @@ import "./Planner.css";
 function Graphbar(props) {
   return (
     <div className="graphBarContainer">
-      <div className="graphBar"></div>
+      <div className={`graphBar completion${props.completion}`}></div>
       <div className="increaseDecreaseButton">
           +
       </div>

@@ -9,6 +9,8 @@
   --colorRightPanelTitles:#34344b;
   --colorAddFilter:#686985;
   --colorTableBorder:#d6dbe3;
+  --colorCompletion100:#f16c8a;
+  --colorCompletion50: #34344b;
 }
 
 body {
