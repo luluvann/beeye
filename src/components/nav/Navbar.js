@@ -15,7 +15,7 @@ function Navbar() {
 
   const items = NavItems.map((item, index) => {
     return (
-      <li key={index} className={item.cName}>
+      <li key={index}>
         <a href={item.url}>{item.title}</a>
       </li>
     );
@@ -34,10 +34,12 @@ function Navbar() {
   };
   return (
     <nav>
+      <div className="navLeft">
       <img src={logo} className="navLogo"></img>
       <ul>
         {items}
       </ul>
+      </div>
       <div className="navRight">
         <Icons />
         <Avatar src={navAvatar} className="navAvatar"/>

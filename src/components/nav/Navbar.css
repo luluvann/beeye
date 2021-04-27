@@ -1,6 +1,8 @@
 nav{
     display: flex;
     justify-content: space-between;
+    min-width: 100%;
+    border-bottom: 0.3px solid gray ;
 }
 
 nav ul {
@@ -8,12 +10,14 @@ nav ul {
     flex-direction: row;
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
 nav ul li {
     display: flex;
     margin: 10px;
     align-items: center;
+    color:var(--colorAddFilter)
 }
 
 nav ul li a{
@@ -38,6 +42,12 @@ nav ul li a:hover{
 
 .larger{
     font-size: 35px;
+}
+
+.navLeft{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 .navRight{
