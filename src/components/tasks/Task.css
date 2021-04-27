@@ -52,8 +52,6 @@ input{
     border-radius: 2px;
     padding: 5px 0 5px 0;
     justify-content: center;
-    
-    
 }
 
 .taskTitle{
@@ -73,4 +71,11 @@ input{
     padding: 0;
     color:var(--colorMediumBlue);
     margin: 0;
+}
+
+.allTasksContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
 }

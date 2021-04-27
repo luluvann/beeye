@@ -52,7 +52,9 @@ function TasksList() {
         <input type="checkbox" onChange={handleSelectAll} ></input>
         <h5>Sélectionner tout</h5>
       </div>
+      <div className="allTasksContainer">
       {allTasks}
+      </div>
     </div>
   );
 }
