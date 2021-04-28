@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/beeye/static/css/main.38bb50a6.chunk.css",
-    "main.js": "/beeye/static/js/main.efd53560.chunk.js",
-    "main.js.map": "/beeye/static/js/main.efd53560.chunk.js.map",
+    "main.js": "/beeye/static/js/main.c58f70c6.chunk.js",
+    "main.js.map": "/beeye/static/js/main.c58f70c6.chunk.js.map",
     "runtime-main.js": "/beeye/static/js/runtime-main.5e14ea18.js",
     "runtime-main.js.map": "/beeye/static/js/runtime-main.5e14ea18.js.map",
     "static/css/2.150d169a.chunk.css": "/beeye/static/css/2.150d169a.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.8e75dbca.chunk.js",
     "static/css/main.38bb50a6.chunk.css",
-    "static/js/main.efd53560.chunk.js"
+    "static/js/main.c58f70c6.chunk.js"
   ]
 }
