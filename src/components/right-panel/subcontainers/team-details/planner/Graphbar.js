@@ -1,18 +1,19 @@
 import React from "react";
 import "./Planner.css";
 
-function Graphbar(props) {
+function Graphbar({properties}) {
+ 
   return (
     <div className="graphBarContainer">
       <div
         className="graphBar"
         style={{
-          background: `linear-gradient(0deg, ${props.color} ${props.completion}%,  rgba(241,240,250,1)  ${props.completion}%)`,
+          background: `linear-gradient(0deg, ${properties.barColor ? properties.barColor : "rgba(241,240,250,1)"} ${properties.completion}%,  rgba(241,240,250,1)  ${properties.completion}%)`,
         }}
       ></div>
       <div className="increaseDecreaseButton">+</div>
       <div className="increaseDecreaseButton">-</div>
-      <div className="graphBarDate">{props.date}</div>
+      <div className="graphBarDate">{properties.date}</div>
     </div>
   );
 }

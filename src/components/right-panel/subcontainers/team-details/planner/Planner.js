@@ -4,8 +4,8 @@ import GraphBar from "./Graphbar";
 import Dates from "./Dates";
 
 function Planner() {
-  const graphBars = Dates.map((item) => {
-    return <GraphBar date={item.date} completion={item.completion} color={item.barColor ? item.barColor : "rgba(241,240,250,1)"}/>;
+  const graphBars = Dates.map((itemProperties) => {
+    return <GraphBar key={itemProperties.date} properties={itemProperties} />;
   });
 
   return (
