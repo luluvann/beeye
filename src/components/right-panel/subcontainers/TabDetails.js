@@ -26,14 +26,14 @@ function TabDetails() {
 
   return (
     <div className="tabDetails">
-      <p><FontAwesomeIcon icon={faFileAlt}/> Description</p>
-      <p><FontAwesomeIcon icon={faCircle}/> Statut</p>
-      <p onClick={handleClick}><FontAwesomeIcon icon={faUsers}/> Équipe <span>Gabrielle Chevalier</span></p>
+      <p><FontAwesomeIcon icon={faFileAlt} className="icons"/> Description</p>
+      <p><FontAwesomeIcon icon={faCircle} className="icons"/> Statut</p>
+      <p onClick={handleClick}><FontAwesomeIcon icon={faUsers} className="icons"/> Équipe <span>Gabrielle Chevalier</span></p>
       {isClicked ? <TeamDetails /> :""}
-      <p><FontAwesomeIcon icon={faMoneyCheck}/> Honoraires</p>
-      <p><FontAwesomeIcon icon={faClock}/> Durée</p>
-      <p><FontAwesomeIcon icon={faCalendarAlt}/> Date butoir</p>
-      <p><FontAwesomeIcon icon={faTasks}/> Checklist</p>
+      <p><FontAwesomeIcon icon={faMoneyCheck} className="icons"/> Honoraires</p>
+      <p><FontAwesomeIcon icon={faClock} className="icons"/> Durée</p>
+      <p><FontAwesomeIcon icon={faCalendarAlt} className="icons"/> Date butoir</p>
+      <p><FontAwesomeIcon icon={faTasks} className="icons"/> Checklist</p>
     </div>
   );
 }

@@ -5,3 +5,13 @@
 .tabsIcon{
     padding-right: 5px;
 }
+
+.icons{
+    color: var(--colorAddFilter);
+    margin-right: 10px;
+  }
+
+  li{
+      display: flex;
+      align-items: center;
+  }

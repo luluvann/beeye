@@ -1,25 +1,25 @@
 :root {
-  --colorMediumBlue:#b7bad6;
-  --colorSidebarLightBlue:#f5f7fa;
+  --colorMediumBlue: #b7bad6;
+  --colorSidebarLightBlue: #f5f7fa;
   --colorSidebarLiXlightBlue: #f1f0fa;
-  --colorOrange:#fb934b;
-  --colorLightOrange:#fff3e2;
+  --colorOrange: #fb934b;
+  --colorLightOrange: #fff3e2;
   --colorPaleOrange: #fff9f2;
   --colorGrey: #9595a2;
-  --colorRightPanelTitles:#34344b;
-  --colorAddFilter:#686985;
-  --colorTableBorder:#d6dbe3;
-  --colorCompletion100:#f16c8a;
+  --colorRightPanelTitles: #34344b;
+  --colorAddFilter: #686985;
+  --colorTableBorder: #d6dbe3;
+  --colorCompletion100: #f16c8a;
   --colorCompletion50: #34344b;
-  --colorDateRange:#eceef3;
+  --colorDateRange: #eceef3;
 }
 
 * {
   margin: 0;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
