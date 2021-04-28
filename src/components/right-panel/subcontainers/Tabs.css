@@ -16,3 +16,8 @@
       display: flex;
       align-items: center;
   }
+
+  .tabDetails p span{
+      padding: 0;
+      padding-left: 10px;
+  }
