@@ -15,6 +15,7 @@
     overflow: auto;
     overflow-y: hidden;
     background-color: var(--colorSidebarLightBlue);
+    padding: 15px;
 }
 
 .graphBarContainer{
@@ -23,7 +24,7 @@
     flex-wrap: nowrap;
 }
 
-.graphBarContainer:hover{
+.graphBarHighlight:hover{
     border-radius: 2px;
     border:1px solid gray;
     background-color: white;
@@ -35,10 +36,6 @@
     height: 100px;
     background-color: var(--colorSidebarLiXlightBlue);
     margin: 10px;
-}
-
-.completion100{
-    background-color:var(--colorCompletion100);
 }
 
 .increaseDecreaseButton{
