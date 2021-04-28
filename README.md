@@ -41,4 +41,9 @@ npm start
 - Rendre davantage responsive sur écrans moins larges (ex: cacher la sidebar partiellement pour que la section à droite prenne toute la largeur de l'écran)
 - Personnaliser les inputs des tâches aux couleurs de Beeye lorsque ceux-ci sont cliqués
 
-
+## Take 2 : améliorations majeures apportées
+- Font family changée à "IBM flex" pour être conforme à la police du wireframe / Font weigth et font size corrigée pour améliorer le visuel
+- Élément du milieu de la navbar réalignée
+- Ajout du cursor pointer sur les élements cliquables
+- La logique du rendering du graph complètement changée pour le rendre totalement dynamique
+- Certains children components recoivent les props sous forme d'objet plutôt que propriété par propriété dans la mesure du possible
