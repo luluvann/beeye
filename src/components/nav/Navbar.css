@@ -1,8 +1,11 @@
 nav{
+    position: sticky;
     display: flex;
     justify-content: space-between;
     min-width: 100%;
     border-bottom: 0.3px solid gray ;
+    z-index: 8;
+    
 }
 
 nav ul {
