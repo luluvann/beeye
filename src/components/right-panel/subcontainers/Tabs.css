@@ -9,6 +9,7 @@
 .icons{
     color: var(--colorAddFilter);
     margin-right: 10px;
+    cursor: pointer;
   }
 
   li{

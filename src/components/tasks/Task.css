@@ -11,6 +11,7 @@
     border: 1px solid var(--colorSidebarLiXlightBlue);
     min-width: 30%;
     width: 100%;
+    cursor:default;
 }
 
 .task:hover{
@@ -30,6 +31,10 @@ input{
     min-width: 35px;
     min-height: 35px;
     justify-self: left;
+}
+
+input:hover{
+    cursor: pointer;
 }
 
 .select h5{
