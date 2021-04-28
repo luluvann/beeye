@@ -97,8 +97,7 @@
     min-width: 60px;
     width: 100%;
     justify-content: center;
-    color: var(--colorRightPanelTitles);
-    font-weight: bold;
+    color: var(--colorAddFilter);
     cursor: pointer;
     border: 1px solid lightgray;
 }
