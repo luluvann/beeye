@@ -5,7 +5,7 @@ import "./Avatar.css"
 function Avatar(props){
 
     return(
-        <img className={`avatar ${props.className}`} src={props.src}></img>
+        <img className={`avatar ${props.className}`} src={props.src} alt="avatar"></img>
     )
 }
 
