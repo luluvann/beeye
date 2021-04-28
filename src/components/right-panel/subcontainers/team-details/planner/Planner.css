@@ -37,16 +37,6 @@
     margin: 10px;
 }
 
-.completion50{
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(52,52,75,1) 50%,  rgba(241,240,250,1) 50%);
-}
-
-.completion70{
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(183,186,214,1) 70%,  rgba(241,240,250,1) 30%);
-}
-
 .completion100{
     background-color:var(--colorCompletion100);
 }

@@ -2,11 +2,10 @@ import React from "react";
 import "./Planner.css";
 import GraphBar from "./Graphbar";
 import Dates from "./Dates";
-import { NavItem } from "react-bootstrap";
 
 function Planner() {
   const graphBars = Dates.map((item) => {
-    return <GraphBar date={item.date} completion={item.completion} />;
+    return <GraphBar date={item.date} completion={item.completion} color={item.barColor ? item.barColor : "rgba(241,240,250,1)"}/>;
   });
 
   return (
