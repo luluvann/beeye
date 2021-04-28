@@ -32,14 +32,9 @@ function TasksList() {
     return (
       <>
         <Task
-          key={item.id}
+          properties={item}
           type="checkbox"
           onChange={onChange}
-          id={item.id}
-          date={item.date}
-          title={item.title}
-          author={item.author}
-          docStatus={item.docStatus}
           isChecked={isCheck.includes(item.id)}
         />
       </>
@@ -49,12 +44,10 @@ function TasksList() {
   return (
     <div>
       <div className="select">
-        <input type="checkbox" onChange={handleSelectAll} ></input>
+        <input type="checkbox" onChange={handleSelectAll}></input>
         <h5>Sélectionner tout</h5>
       </div>
-      <div className="allTasksContainer">
-      {allTasks}
-      </div>
+      <div className="allTasksContainer">{allTasks}</div>
     </div>
   );
 }

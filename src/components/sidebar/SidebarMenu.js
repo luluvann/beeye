@@ -27,7 +27,7 @@ function SidebarMenu() {
     <div className="sideBarSubContainer">
       <div className="sideBarMenu">
         <h5 className="title">Titre</h5>
-        <h5 className="clientName">Nom client</h5>
+        <h6 className="clientName">Nom client</h6>
         <ul>{items}</ul>
       </div>
       <div className="sideBarMenuDetails">
